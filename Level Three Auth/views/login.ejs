@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('./partials/header')%>
+    <title>Login | Not actual Metaverse</title>
+</head>
+<body>
+<div class="container">
+    <header class="d-flex justify-content-between border-bottom py-3">
+        <h3>Metaverse</h3>
+        <div>
+            <a href="https://twitter.com/shuklaritvik06"><button class="btn btn-warning"><i class="bi bi-twitter"></i>&nbsp;Follow me</button></a>
+            <a href="/register"><button type="submit" class="btn btn-outline-success">Create Account</button></a>
+        </div>
+    </header>
+<div class="mt-5">
+    <form action="/login" method="post">
+        <div class="mb-3">
+            <label for="Usermail" class="form-label">Username</label>
+            <input type="text" class="form-control" name="loginName" id="Usermail">
+        </div>
+        <div class="mb-3">
+            <label for="Userpassword" class="form-label">Password</label>
+            <input type="password" class="form-control" id="Userpassword" name="pass">
+        </div>
+        <button type="submit" class="btn btn-success">Login</button>
+    </form>
+</div>
+<%- include('./partials/footer.ejs')%>
+</div>
+</body>
+</html>

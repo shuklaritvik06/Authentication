@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('./partials/header.ejs')%>
+    <title>Register | Not actual Metaverse</title>
+</head>
+<body>
+<div class="container">
+    <header class="d-flex justify-content-between border-bottom py-3">
+        <h3>Metaverse</h3>
+        <div>
+            <a href="https://twitter.com/shuklaritvik06"><button class="btn btn-warning"><i class="bi bi-twitter"></i>&nbsp;Follow me</button></a>
+        </div>
+    </header>
+    <div class="mt-5">
+        <form action="/register" method="post">
+            <div class="mb-3">
+                <label for="Usermail" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="Usermail" name="mail">
+            </div>
+            <div class="mb-3">
+                <label for="Username" class="form-label">User name</label>
+                <input type="text" class="form-control" id="Username" name="user">
+            </div>
+            <div class="mb-3">
+                <label for="Userpassword" class="form-label">Password</label>
+                <input type="password" class="form-control" id="Userpassword" name="pass">
+            </div>
+            <button class="btn btn-outline-success">Create Account</button></a>
+        </form>
+    </div>
+    <%- include('./partials/footer.ejs')%>
+</div>
+</body>
+</html>
