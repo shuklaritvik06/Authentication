@@ -1,0 +1,1 @@
+Authenticating user using Firebase

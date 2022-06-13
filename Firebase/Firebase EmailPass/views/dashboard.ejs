@@ -1,0 +1,17 @@
+<%-include('partials/header')%>
+<body>
+    Welcome to dashboard
+    <h1>Some good Hotels and there Description</h1>
+    <%for(let i=0;i<data.length;i++){%>
+        <h4><%=data[i].title%></h4>
+        <img src="<%=data[i].imgUrl%>" style="border-radius:20%; width: 10%;height: 10%;">
+        <p><%=data[i].description%></p>
+    <%}%>
+    <form action="/create">
+        <input type="submit" value="Create Hotel">
+    </form>
+    <form action="/logout">
+        <input type="submit" value="Logout">
+    </form>
+</body>
+</html>
