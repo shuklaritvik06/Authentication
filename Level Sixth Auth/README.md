@@ -1,6 +1,6 @@
-## Level Six Auth
+## Level Six Auth (Preferred)
 
-OAuth :)
+OAuth
 
 Implemented   
 

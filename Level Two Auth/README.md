@@ -1,3 +1,3 @@
 ## Level Two Auth
 
-Database Encryption
+User authentication using Database Encryption

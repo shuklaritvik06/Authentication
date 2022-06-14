@@ -1,1 +1,3 @@
-User auth using JWT
+# JWT
+
+User Authentication using JWT Tokens

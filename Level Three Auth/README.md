@@ -1,3 +1,3 @@
 ## Level Three Auth
 
-Hashing Passwords :)
+Hashing passwords and authenticating users

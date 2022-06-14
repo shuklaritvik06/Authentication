@@ -1,3 +1,3 @@
 ## Level Five Auth
 
-Cookies, Session and PassportJs
+User Authentication using Cookies, Session and PassportJs 

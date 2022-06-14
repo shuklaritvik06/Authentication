@@ -1,3 +1,3 @@
-## Level One
+## Level One (Basic)
 
-Register Users with Username and Password, and login by comparing the values from the database without encryption
+Register Users with Username and Password, and login by comparing the values from the database without encryption.
