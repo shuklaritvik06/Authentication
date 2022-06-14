@@ -1,0 +1,16 @@
+<%-include("partials/header")%>
+<body>
+    <form action="/login" method="post">
+        <div>
+            <input type="text" name="username" placeholder="Username">
+            <p><%=error.username%></p>
+        </div>
+        <div>
+            <input type="password" name="password" placeholder="Password">
+            <p><%=error.password%></p>
+        </div>
+        <button type="submit">Login</button>
+    </form>
+    <a href="/register"><button>Register</button></a>
+</body>
+</html>
