@@ -4,8 +4,8 @@ OAuth
 
 Implemented   
 
-- Google OAuth
-- Facebook OAuth
-- Twitter OAuth
-- Github OAuth
-- LinkedIn OAuth
+- [x] Google OAuth
+- [x] Facebook OAuth
+- [x] Twitter OAuth
+- [x] Github OAuth
+- [x] LinkedIn OAuth
